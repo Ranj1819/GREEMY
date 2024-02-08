@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.titlebar{
+    background-color: rgb(154, 243, 154);
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    overflow: hidden;
+    z-index: 100;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-right: 75px;
+}
+.index{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(154, 243, 154);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.textfordec{
+    margin-left: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: black 0px;
+    cursor: pointer;
+}
+#ad{
+    color: grey;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.us{
+    text-align: center;
+    border: 2px black solid;
+    height: 200px;
+    width: 200px;
+    padding: 8px;
+}
+i{
+    font-size: 30px;
+}
+.prod{
+    background-color: rgb(154, 243, 154);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.pro1{
+    position: relative;
+    top: -20px;
+    flex-shrink:0 ;
+}
+.pro2{
+    position: relative;
+    top: 20px;
+}
+.anime{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.move:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+.rating{
+    margin-top: 90px;
+    background-color: rgb(154, 243, 154);
+    display: flex;
+    z-index: 100;
+    padding-bottom: 20px;
+}
+.phonk{
+    margin-left: 50px;
+    background-color: rgb(154, 243, 154);
+    padding-right:25px ;
+    padding-top: 30px;
+}
+.searchbar{
+    text-align: center;
+}
+.final{
+    margin-top: 5px;
+    padding-top: 40px;
+    padding-left: 25px;
+    background-color: rgb(154, 243, 154);
+}
+i{
+    cursor: pointer;
+}
